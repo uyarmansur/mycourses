@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "content": "Angular, TypeScript ile yazılmış açık kaynaklı bir JavaScript framework’üdür . Angular Google tarafından desteklenir ve birincil amacı tek sayfalık uygulamalar geliştirmektir. Bir framework olarak Angular, geliştiricilerin birlikte çalışması için standart bir yapı sağlarken açık avantajlara sahiptir. Kullanıcıların sürdürülebilir bir şekilde büyük uygulamalar oluşturmasını sağlar. ",
+      "title": "Angular",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "content": "Bootstrap, HTML, CSS ve JavaScript ile yazılmış kullanışlı, yeniden kullanılabilir kod parçalarından oluşan dev bir koleksiyondur. Ayrıca, geliştiricilerin ve tasarımcıların hızla tam olarak duyarlı web siteleri oluşturmasını sağlayan bir frameworktür.Bootstrap web uygulaması geliştirme araç takımı, eski Twitter çalışanları Mark Otto ve Jacob Thornton tarafından oluşturulmuştur. ",
+      "title": "Bootstrap",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "content": "C yazılım dili, yeni programlama dilleri yazma imkanı sunan ve karmaşık programlama işlemlerinde kullanılan yapısal bir programlama dilidir.C yazılım dili; C++, Java ve C# gibi diğer programlama dillerinin temelini oluşturduğu için son derece kullanışlıdır ve kolay öğrenilir. C yazılım dilinin yapısal bir programlama dili olması, karmaşık kodların bloklara bölünerek kolay bir şekilde yazılabilmesi anlamına gelmektedir. ",
+      "title": "C Programlama",
+      "price": 299
+    },
+    {
+      "id": 4,
+      "content": "Frontend’in Türkçe karşılığı “Önyüz”dür. Yapılma aşamasındaki bir web sitesinin ön yüzünü (client-side) HTML, CSS ve JavaScript gibi teknolojileri kullanarak web sitesinin görsel tarafını oluşturan kişilere ise  front-end developer ( Ön yüz geliştirici ) denir. Web sitesinde kullanılacak renkler, içeriklerin yerleşimi, yazı tipinin seçilmesi ve uygulanması gibi birçok görevi bünyesinde barındırır. ",
+      "title": "Frontend Kursu",
+      "price": 299
+    },
+    {
+      "id": 5,
+      "content": "Hiper Metin İşaretleme Dili (HTML, İngilizce HyperText Markup Language kelimelerinin baş harflerinin kısaltılmasıdır) web sayfalarını oluşturmak için kullanılan standart metin işaretleme dilidir. Dilin son sürümü HTML5'tir. ",
+      "title": "Html",
+      "price": 0
+    }
+  ]
+}
