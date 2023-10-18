@@ -23,15 +23,16 @@
   color: red;
 }
 
-.cardDeleteBtn {
+.cardChangeBtn {
   border-radius: 30px;
-  width: 100px;
-  padding: 10px;
+  /* width: 100px; */
+  padding: 10px 30px;
   background-color: rebeccapurple;
   color: white;
   border: none;
+  margin-bottom: 20px;
 }
-.cardDeleteBtn:hover {
+.cardChangeBtn:hover {
   background-color: purple;
   cursor: pointer;
 }

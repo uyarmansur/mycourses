@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Course from "./Course";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-export default function Courses({ courses, removeCourse }) {
+export default function Courses({ courses }) {
   const [index, setIndex] = useState(0);
   const { title, price, content } = courses[index];
 
@@ -28,10 +28,22 @@ export default function Courses({ courses, removeCourse }) {
       return checkIndex(newIndex);
     });
   };
+
+  const getRandomCourse = () => {
+    let randomNumber = Math.floor(Math.random() * courses.length - 1);
+    console.log("randomNumber" + randomNumber);
+    if (randomNumber === index) {
+      randomNumber = index + 1;
+    }
+    setIndex(checkIndex(randomNumber));
+  };
   return (
     <div className="courseMainDiv">
       <div>
-        <h2>Kurslarım</h2>
+        <h2 style={{ textAlign: "center" }}>Kurslarım</h2>
+        <button className="cardChangeBtn" onClick={() => getRandomCourse()}>
+          Rastgele Kurs Ata
+        </button>
       </div>
       <div className="cardDiv">
         <button className="prevNext" onClick={() => prevCourse()}>
