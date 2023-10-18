@@ -5,16 +5,26 @@ export default function Courses({ courses, removeCourse }) {
   const [index, setIndex] = useState(0);
   const { title, price, content } = courses[index];
 
-  const checkIndex = (index) => {
-    if (index < 0) {
+  console.log(index);
+  const checkIndex = (i) => {
+    if (i < 0) {
       return courses.length - 1;
     }
-    return index;
+    if (i > courses.length - 1) {
+      return 0;
+    }
+    return i;
   };
 
   const prevCourse = () => {
-    setIndex((index) => {
+    setIndex(() => {
       let newIndex = index - 1;
+      return checkIndex(newIndex);
+    });
+  };
+  const nextCourse = () => {
+    setIndex(() => {
+      let newIndex = index + 1;
       return checkIndex(newIndex);
     });
   };
@@ -35,7 +45,7 @@ export default function Courses({ courses, removeCourse }) {
 
           <p>{content}</p>
         </div>
-        <button className="prevNext">
+        <button className="prevNext" onClick={() => nextCourse()}>
           <FaChevronRight />
         </button>
         {/* {courses.map((course) => (
