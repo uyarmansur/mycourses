@@ -28,10 +28,17 @@
   width: 100px;
   padding: 10px;
   background-color: rebeccapurple;
-  color:white;
+  color: white;
   border: none;
 }
-.cardDeleteBtn:hover{
+.cardDeleteBtn:hover {
   background-color: purple;
   cursor: pointer;
+}
+
+.prevNext {
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  color: red;
 }
